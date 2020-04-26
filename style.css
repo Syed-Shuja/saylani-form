@@ -1,0 +1,29 @@
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+.Saylani {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.heading {
+    text-align: center;
+    font-weight: bold;
+}
+fieldset{
+    margin: auto;
+    width: 50%;
+    background-color: royalblue;
+    color: seashell;
+    font-size: 3;
+}
+.top {
+    vertical-align: top;
+}
+.form {
+    font-size: 9pt;
+}

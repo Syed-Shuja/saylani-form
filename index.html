@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment-No.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="Images/saylani-welfare.jpg" alt="Saylani" class="Saylani">
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <p>Readd</p>
+    <fieldset>
+        <form action="Submit/submit.html" class="form">
+            <table>
+                <tr>
+                    <td>
+                        FIRST NAME 
+                    </td>
+                    <td>
+                        <input required placeholder="Enter first name" type="text" name="firstname" id="fname"
+                            maxlength="30">
+                        (max 30 characters a-z and A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        LAST NAME
+                    </td>
+                    <td>
+                        <input required placeholder="Enter last name" type="text" name="lastname" id="lname"
+                            maxlength="30">
+                        (max 30 characters a-z and A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        DATE OF BIRTH
+                    </td>
+                    <td>
+                        <select name="days" id="days">
+                            <option>Day</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+                        <select name="months" id="months">
+                            <option value="months">MONTH</option>
+                            <option value="jan">JAN</option>
+                            <option value="feb">FEB</option>
+                            <option value="mar">MAR</option>
+                            <option value="apr">APR</option>
+                            <option value="may">MAY</option>
+                            <option value="jun">JUN</option>
+                            <option value="jul">JUL</option>
+                            <option value="aug">AUG</option>
+                            <option value="sep">SEP</option>
+                            <option value="oct">OCT</option>
+                            <option value="nov">NOV</option>
+                            <option value="dec">DEC</option>
+                        </select>
+                        <select name="years" id="years">
+                            <option>Year:</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                            <option>2008</option>
+                            <option>2007</option>
+                            <option>2006</option>
+                            <option>2005</option>
+                            <option>2004</option>
+                            <option>2003</option>
+                            <option>2002</option>
+                            <option>2001</option>
+                            <option>2000</option>
+                            <option>1999</option>
+                            <option>1998</option>
+                            <option>1997</option>
+                            <option>1996</option>
+                            <option>1995</option>
+                            <option>1994</option>
+                            <option>1993</option>
+                            <option>1992</option>
+                            <option>1991</option>
+                            <option>1990</option>
+                            <option>1989</option>
+                            <option>1988</option>
+                            <option>1987</option>
+                            <option>1986</option>
+                            <option>1985</option>
+                            <option>1984</option>
+                            <option>1983</option>
+                            <option>1982</option>
+                            <option>1981</option>
+                            <option>1980</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>EMAIL ID</td>
+                    <td>
+                        <input required placeholder="Enter email address" type="email" name="emailid" id="emailid">
+                    </td>
+                </tr>
+                <tr>
+                    <td>MOBILE NUMBER</td>
+                    <td>
+                        <input required placeholder="Enter mobile number" type="text" name="mnum" id="mnum"
+                            maxlength="10">
+                        (10 digit number)
+                    </td>
+                </tr>
+                <tr>
+                    <td>GENDER</td>
+                    <td>
+                        Male <input required type="radio" name="gender" value="male" id="male">
+                        Female <input required type="radio" name="gender" value="female" id="male">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="top">ADDRESS </td>
+                    <td>
+                        <textarea required name="address" id="add" cols="40" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>CITY</td>
+                    <td>
+                        <input placeholder="Ente city name" type="text" name="city" id="city" maxlength="30">
+                        (max 30 characters a-z and A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>PIN CODE</td>
+                    <td>
+                        <input required placeholder="Enter pincode" type="password" name="password" id="password"
+                            maxlength="6">
+                        (6 digit numbers)
+                    </td>
+                </tr>
+                <tr>
+                    <td>STATE</td>
+                    <td>
+                        <input placeholder="Enter state" type="text" name="state" id="state" maxlength="30">
+                        (max 30 characters a-z and A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>COUNTRY </td>
+                    <td>
+                        <input placeholder="Enter country" type="text" name="country" id="country">
+                    </td>
+                </tr>
+                <tr>
+                    <td>HOBBIES</td>
+                    <td>
+                        Drawing <input type="checkbox" name="drawing" id="drawing">
+                        Singing <input type="checkbox" name="singning" id="singning">
+                        Dancing <input type="checkbox" name="dancing" id="dancing">
+                        Sketching <input type="checkbox" name="sketching" id="sketching"><br>
+                        Others <input type="checkbox" name="others" id="others">
+                        <input type="text" name="otherstxt" id="otherstxt">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="top"> QUALIFICATION </td>
+                    <td>
+                        <table>
+                            <tr class="heading">
+                                <td>Sr.No.</td>
+                                <td>Examination</td>
+                                <td>Board</td>
+                                <td>Percentage</td>
+                                <td>Year of Passing</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td>
+                                    <input type="text" name="class10-b" id="class10-p" maxlength="10" class="heading">
+                                </td>
+                                <td>
+                                    <input type="text" name="class10-p" id="class10-p" maxlength="2" class="heading">
+                                </td>
+                                <td>
+                                    <input type="text" name="class10-y" id="class10-y" maxlength="4" class="heading">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Class X||</td>
+                                <td>
+                                    <input type="text" name="class12-b" id="class12-p" maxlength="10" class="heading">
+                                </td>
+                                <td>
+                                    <input type="text" name="class12-p" id="class12-p" maxlength="2" class="heading">
+                                </td>
+                                <td>
+                                    <input type="text" name="class12-y" id="class12-y" maxlength="4" class="heading">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td>
+                                    <input type="text" name="class14-b" id="class14-p" maxlength="10" class="heading">
+                                </td>
+                                <td>
+                                    <input type="text" name="class14-p" id="class14-p" maxlength="2" class="heading">
+                                </td>
+                                <td>
+                                    <input type="text" name="class14-y" id="class14-y" maxlength="4" class="heading">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td>
+                                    <input type="text" name="class16-b" id="class16-p" maxlength="10" class="heading">
+                                </td>
+                                <td>
+                                    <input type="text" name="class16-p" id="class16-p" maxlength="2" class="heading">
+                                </td>
+                                <td>
+                                    <input type="text" name="class16-y" id="class16-y" maxlength="4" class="heading">
+                                </td>
+                            </tr>
+                            <tr class="heading">
+                                <td colspan="2"></td>
+                                <td>(10 char max) </td>
+                                <td> (upto 2 decimal) </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>COURSES <br> APPLIED FOR</td>
+                    <td>
+                        BCA <input required type="radio" name="course" id="" value="bca">
+                        B.Com <input required type="radio" name="course" id="" value="bcom">
+                        B.Sc <input required type="radio" name="course" id="" value="bsc">
+                        B.A <input required type="radio" name="course" id="" value="ba">
+                    </td>
+                </tr>
+                <tr class="heading">
+                    <td colspan="1"></td>
+                    <td>
+                        <input type="submit" name="submit" id="submit">
+                        <button type="reset"> Reset </button>
+                    </td>
+                </tr>
+            </table>
+
+
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
